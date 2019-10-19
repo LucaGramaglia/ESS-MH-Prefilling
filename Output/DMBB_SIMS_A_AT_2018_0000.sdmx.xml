@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>DMBB_SIMS_A</ID>
+    <Test>false</Test>
+    <Name>DMBB_SIMS_A_AT_2018_0000</Name>
+    <Prepared>2019-09-28T07:37:29</Prepared>
+    <Sender id="AT1">
+      <Contact/>
+    </Sender>
+    <DataSetID>DMBB_SIMS_A_1569649083238</DataSetID>
+    <DataSetAction/>
+    <Extracted/>
+    <ReportingBegin>2019-01-01T00:00:00</ReportingBegin>
+    <ReportingEnd>2019-12-31T00:00:00</ReportingEnd>
+    <DataSetAgency>ESTAT</DataSetAgency>
+  </Header>
+  <genericmetadata:MetadataSet>
+    <genericmetadata:MetadataStructureRef>SIMS_MSD</genericmetadata:MetadataStructureRef>
+    <genericmetadata:MetadataStructureAgencyRef>ESTAT</genericmetadata:MetadataStructureAgencyRef>
+    <genericmetadata:ReportRef>SIMS_REPORT_FULL</genericmetadata:ReportRef>
+    <genericmetadata:AttributeValueSet>
+      <genericmetadata:TargetRef>FULL_ESMS</genericmetadata:TargetRef>
+      <genericmetadata:TargetValues>
+        <genericmetadata:ComponentValue component="TIME_PERIOD" object="TimeDimension">2018-A0</genericmetadata:ComponentValue>
+        <genericmetadata:ComponentValue component="DATA_PROVIDER" object="DataProvider">AT1</genericmetadata:ComponentValue>
+        <genericmetadata:ComponentValue component="DATAFLOW" object="DataFlow">DMBB_SIMS_A:1.0</genericmetadata:ComponentValue>
+      </genericmetadata:TargetValues>
+      <genericmetadata:ReportedAttribute conceptID="CONTACT">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_ORGANISATION">
+          <genericmetadata:Value>BlaAT2018 - 1</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="ORGANISATION_UNIT">
+          <genericmetadata:Value>BlaAT2018 - 2</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_NAME">
+          <genericmetadata:Value>BlaAT2018 - 3</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_FUNCT">
+          <genericmetadata:Value>BlaAT2018 - 4</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_MAIL">
+          <genericmetadata:Value>BlaAT2018 - 5</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_EMAIL">
+          <genericmetadata:Value>BlaAT2018 - 6</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_PHONE">
+          <genericmetadata:Value>BlaAT2018 - 7</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONTACT_FAX">
+          <genericmetadata:Value>BlaAT2018 - 8</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="META_UPDATE">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="META_CERTIFIED">
+          <genericmetadata:Value/>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="META_POSTED">
+          <genericmetadata:Value/>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="META_LAST_UPDATE">
+          <genericmetadata:Value/>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="STAT_PRES">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="DATA_DESCR">
+          <genericmetadata:Value>BlaAT2018 - 12</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CLASS_SYSTEM">
+          <genericmetadata:Value>BlaAT2018 - 13</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COVERAGE_SECTOR">
+          <genericmetadata:Value>BlaAT2018 - 14</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="STAT_CONC_DEF">
+          <genericmetadata:Value>BlaAT2018 - 15</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="STAT_UNIT">
+          <genericmetadata:Value>BlaAT2018 - 16</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="STAT_POP">
+          <genericmetadata:Value>BlaAT2018 - 17</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="REF_AREA">
+          <genericmetadata:Value>BlaAT2018 - 18</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME">
+          <genericmetadata:Value>BlaAT2018 - 19</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="BASE_PER">
+          <genericmetadata:Value>BlaAT2018 - 20</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="UNIT_MEASURE">
+        <genericmetadata:Value/>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="REF_PERIOD">
+        <genericmetadata:Value/>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="INST_MANDATE">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="INST_MAN_LA_OA">
+          <genericmetadata:Value>BlaAT2018 - 21</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="INST_MAN_SHAR">
+          <genericmetadata:Value>BlaAT2018 - 22</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="CONF">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="CONF_POLICY">
+          <genericmetadata:Value>BlaAT2018 - 23</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="CONF_DATA_TR">
+          <genericmetadata:Value>BlaAT2018 - 24</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="REL_POLICY">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="REL_CAL_POLICY">
+          <genericmetadata:Value>BlaAT2018 - 25</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="REL_CAL_ACCESS">
+          <genericmetadata:Value>BlaAT2018 - 26</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="REL_POL_US_AC">
+          <genericmetadata:Value>BlaAT2018 - 27</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="FREQ_DISS">
+        <genericmetadata:Value/>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="ACCESSIBILITY_CLARITY">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="NEWS_REL">
+          <genericmetadata:Value>BlaAT2018 - 28</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="PUBLICATIONS">
+          <genericmetadata:Value>BlaAT2018 - 29</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="ONLINE_DB">
+          <genericmetadata:Value>BlaAT2018 - 30</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="DATATABLE_CONSULT">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="MICRO_DAT_ACC">
+          <genericmetadata:Value>BlaAT2018 - 31</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="DISS_OTHER">
+          <genericmetadata:Value>BlaAT2018 - 32</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="METADATA_CONSULT">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="DOC_METHOD">
+          <genericmetadata:Value>BlaAT2018 - 33</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="METADATA_COMPLETE">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="QUALITY_DOC">
+          <genericmetadata:Value>BlaAT2018 - 34</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="QUALITY_MGMNT">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSURE">
+          <genericmetadata:Value>BlaAT2018 - 35</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSMNT">
+          <genericmetadata:Value>BlaAT2018 - 36</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="RELEVANCE">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="USER_NEEDS">
+          <genericmetadata:Value>BlaAT2018 - 37</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="USER_SAT">
+          <genericmetadata:Value>BlaAT2018 - 38</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COMPLETENESS">
+          <genericmetadata:Value>BlaAT2018 - 39</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="COMPLETENESS_RATE">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="ACCURACY">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="ACCURACY_OVERALL">
+          <genericmetadata:Value>BlaAT2018 - 40</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="SAMPLING_ERR">
+          <genericmetadata:Value>BlaAT2018 - 41</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="SAMPLING_ERR_IND">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="NONSAMPLING_ERR">
+          <genericmetadata:Value>BlaAT2018 - 42</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="COVERAGRE_ERR">
+            <genericmetadata:Value/>
+            <genericmetadata:ReportedAttribute conceptID="OVERCOVERAGE_RATE">
+              <genericmetadata:Value/>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMMON_UNIT_SHARE">
+              <genericmetadata:Value/>
+            </genericmetadata:ReportedAttribute>
+          </genericmetadata:ReportedAttribute>
+          <genericmetadata:ReportedAttribute conceptID="MEASUREMENT_ERR">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+          <genericmetadata:ReportedAttribute conceptID="NONRESPONSE_ERR">
+            <genericmetadata:Value/>
+            <genericmetadata:ReportedAttribute conceptID="UNIT_NONRESPONSE_RATE">
+              <genericmetadata:Value/>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ITEM_NONRESPONSE_RATE">
+              <genericmetadata:Value/>
+            </genericmetadata:ReportedAttribute>
+          </genericmetadata:ReportedAttribute>
+          <genericmetadata:ReportedAttribute conceptID="PROCESSING_ERR">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+          <genericmetadata:ReportedAttribute conceptID="MODEL_ASSUMP_ERR">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="TIMELINESS_PUNCT">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="TIMELINESS">
+          <genericmetadata:Value>BlaAT2018 - 43</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="TIMELAG_FIRST">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+          <genericmetadata:ReportedAttribute conceptID="TIMELAG_FINAL">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="PUNCTUALITY">
+          <genericmetadata:Value>BlaAT2018 - 44</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="PUNCTUALITY_RELEASE">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="COHER_COMPAR">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO">
+          <genericmetadata:Value>BlaAT2018 - 45</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="ASYMMETRY_COEFF">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME">
+          <genericmetadata:Value>BlaAT2018 - 46</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="COMPAR_LENGTH">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COHER_X_DOM">
+          <genericmetadata:Value>BlaAT2018 - 47</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="COHER_FREQSTAT">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+          <genericmetadata:ReportedAttribute conceptID="COHER_NATACCOUNTS">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COHER_INTERNAL">
+          <genericmetadata:Value>BlaAT2018 - 48</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="COST_BURDEN">
+        <genericmetadata:Value/>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="DATA_REV">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="REV_POLICY">
+          <genericmetadata:Value>BlaAT2018 - 49</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="REV_PRACTICE">
+          <genericmetadata:Value>BlaAT2018 - 50</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="DATA_REV_AVGSIZE">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="STAT_PROCESS">
+        <genericmetadata:Value/>
+        <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE">
+          <genericmetadata:Value>BlaAT2018 - 51</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="FREQ_COLL">
+          <genericmetadata:Value>BlaAT2018 - 52</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="COLL_METHOD">
+          <genericmetadata:Value>BlaAT2018 - 53</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="DATA_VALIDATION">
+          <genericmetadata:Value>BlaAT2018 - 54</genericmetadata:Value>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="DATA_COMP">
+          <genericmetadata:Value>BlaAT2018 - 55</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="IMPUTATION_RATE">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+        <genericmetadata:ReportedAttribute conceptID="ADJUSTMENT">
+          <genericmetadata:Value>BlaAT2018 - 56</genericmetadata:Value>
+          <genericmetadata:ReportedAttribute conceptID="SEASONAL_ADJ">
+            <genericmetadata:Value/>
+          </genericmetadata:ReportedAttribute>
+        </genericmetadata:ReportedAttribute>
+      </genericmetadata:ReportedAttribute>
+      <genericmetadata:ReportedAttribute conceptID="COMMENT_DSET">
+        <genericmetadata:Value/>
+      </genericmetadata:ReportedAttribute>
+    </genericmetadata:AttributeValueSet>
+    <genericmetadata:Annotations>
+      <common:Annotation>
+        <common:AnnotationType>FOR_PUBLICATION</common:AnnotationType>
+        <common:AnnotationText>YES</common:AnnotationText>
+      </common:Annotation>
+    </genericmetadata:Annotations>
+  </genericmetadata:MetadataSet>
+</GenericMetadata>
+ 
